@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Content Storyboard-->
+        <scene sceneID="lV8-UX-1KL">
+            <objects>
+                <viewController storyboardIdentifier="ContentStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yJP-nX-CF5" customClass="ContentStoryboard" customModule="PracticeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hng-pM-lma">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="aTe-QO-YmD">
+                                <rect key="frame" x="0.0" y="405" width="414" height="457"/>
+                                <color key="backgroundColor" red="0.95327983350000001" green="0.91302936339999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.37519095250000001" green="0.34056152519999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Discipline is probably one of the most mentioned word you heard while growing up. It never gets old because discipline is required in all stages of life. Being disciplined sounds like a very heavy thing but it is simply the act of obeying the rules set for you as a guide for behaviour. Guides for behaviour are mostly used in schools and organizations. At home, being disciplined is basically following the right thing and displaying acceptable behaviour according to morals. Consequences of indiscipline at school and at home were severe such that children opted to be in their best behaviour. Teachers have a hard task in shaping the behaviour of children Discipline is probably one of the most mentioned word you heard while growing up. It never gets old because discipline is required in all stages of life. Being disciplined sounds like a very heavy thing but it is simply the act of obeying the rules set for you as a guide for behaviour. Guides for behaviour are mostly used in schools and organizations. At home, being disciplined is basically following the right thing and displaying acceptable behaviour according to morals. Consequences of indiscipline at school and at home were severe such that children opted to be in their best behaviour. Teachers have a hard task in shaping the behaviour of children Discipline is probably one of the most mentioned word you heard while growing up. It never gets old because discipline is required in all stages of life. Being disciplined sounds like a very heavy thing but it is simply the act of obeying the rules set for you as a guide for behaviour. Guides for behaviour are mostly used in schools and organizations. At home, being disciplined is basically following the right thing and displaying acceptable behaviour according to morals. Consequences of indiscipline at school and at home were severe such that children opted to be in their best behaviour. Teachers have a hard task in shaping the behaviour of children </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trailer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GvI-nM-dh9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.95327983350000001" green="0.91302936339999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="zjJ-IQ-nrm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xh-We-mzr">
+                                <rect key="frame" x="0.0" y="347" width="409" height="50"/>
+                                <color key="backgroundColor" red="0.95327983350000001" green="0.91302936339999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Gz1-k9-U6v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MSo-3W-XJF">
+                                <rect key="frame" x="0.0" y="127" width="409" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="exm-Nr-44F"/>
+                        <color key="backgroundColor" red="0.87400661260000001" green="0.84334853050000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="aTe-QO-YmD" firstAttribute="bottom" secondItem="exm-Nr-44F" secondAttribute="bottom" id="0ig-ms-wXG"/>
+                            <constraint firstItem="exm-Nr-44F" firstAttribute="trailing" secondItem="2xh-We-mzr" secondAttribute="trailing" constant="5" id="2ce-Ul-I05"/>
+                            <constraint firstItem="aTe-QO-YmD" firstAttribute="leading" secondItem="exm-Nr-44F" secondAttribute="leading" id="56S-2Y-sYS"/>
+                            <constraint firstItem="GvI-nM-dh9" firstAttribute="top" secondItem="exm-Nr-44F" secondAttribute="top" id="69p-fa-H8D"/>
+                            <constraint firstItem="GvI-nM-dh9" firstAttribute="leading" secondItem="exm-Nr-44F" secondAttribute="leading" id="7dE-Xw-6Vd"/>
+                            <constraint firstItem="aTe-QO-YmD" firstAttribute="top" secondItem="exm-Nr-44F" secondAttribute="top" constant="361" id="KJO-Wa-wgB"/>
+                            <constraint firstItem="2xh-We-mzr" firstAttribute="top" secondItem="exm-Nr-44F" secondAttribute="top" constant="303" id="NgH-Y9-P3X"/>
+                            <constraint firstItem="2xh-We-mzr" firstAttribute="leading" secondItem="exm-Nr-44F" secondAttribute="leading" id="bOo-er-351"/>
+                            <constraint firstItem="exm-Nr-44F" firstAttribute="trailing" secondItem="aTe-QO-YmD" secondAttribute="trailing" id="tgV-XU-I2p"/>
+                            <constraint firstItem="exm-Nr-44F" firstAttribute="trailing" secondItem="GvI-nM-dh9" secondAttribute="trailing" id="yXB-My-2wa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="DescriptionText" destination="aTe-QO-YmD" id="H1c-YB-wf0"/>
+                        <outlet property="TrailerPlayer" destination="MSo-3W-XJF" id="p3p-P8-tMp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0M-at-VaJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1055.072463768116" y="2067.8571428571427"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
