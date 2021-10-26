@@ -16,6 +16,8 @@ class Tab1ViewController: UIViewController {
         Tab1Table.delegate=self
         Tab1Table.dataSource=self
         tab1CV.dataSource = self
+        //tab1CV.delegate = self
+        
         //let screenSize = UIScreen.main.bounds.size
         
     }

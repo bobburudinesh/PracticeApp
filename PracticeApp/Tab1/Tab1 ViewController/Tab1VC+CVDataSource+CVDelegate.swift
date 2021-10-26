@@ -24,10 +24,10 @@ extension Tab1ViewController : UICollectionViewDataSource,UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let carouselCellWidth = floor(self.tab1CV.frame.width * 1)
-        let carouselCellHeight = floor(self.tab1CV.frame.height * 1)
-        let width = self.tab1CV.frame.width/2
-        return CGSize(width: width, height: width)
+        //let carouselCellWidth = floor(self.tab1CV.frame.width * 1)
+       // let carouselCellHeight = floor(self.tab1CV.frame.height * 1)
+        let width = self.view.frame.width
+        return CGSize(width: width, height: width*0.6)
     }
     
 }
